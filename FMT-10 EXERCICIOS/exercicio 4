@@ -1,0 +1,6 @@
+function somarNumeros(numero1, numero2) {
+    var soma = numero1 + numero2;
+    console.log("A soma dos números é:", soma);
+}
+
+somarNumeros(5, 3);

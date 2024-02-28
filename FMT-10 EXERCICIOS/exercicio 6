@@ -1,0 +1,38 @@
+var pessoa1 = {
+    nome: "João",
+    idade: 30,
+    nacionalidade: "Brasileiro",
+    profissao: "Engenheiro"
+};
+
+var pessoa2 = {
+    nome: "Maria",
+    idade: 25,
+    nacionalidade: "Portuguesa",
+    profissao: "Médica"
+};
+
+var pessoa3 = {
+    nome: "Carlos",
+    idade: 35,
+    nacionalidade: "Espanhol",
+    profissao: "Professor"
+};
+
+console.log("Informações da Pessoa 1:");
+console.log("Nome:", pessoa1.nome);
+console.log("Idade:", pessoa1.idade);
+console.log("Nacionalidade:", pessoa1.nacionalidade);
+console.log("Profissão:", pessoa1.profissao);
+
+console.log("\nInformações da Pessoa 2:");
+console.log("Nome:", pessoa2.nome);
+console.log("Idade:", pessoa2.idade);
+console.log("Nacionalidade:", pessoa2.nacionalidade);
+console.log("Profissão:", pessoa2.profissao);
+
+console.log("\nInformações da Pessoa 3:");
+console.log("Nome:", pessoa3.nome);
+console.log("Idade:", pessoa3.idade);
+console.log("Nacionalidade:", pessoa3.nacionalidade);
+console.log("Profissão:", pessoa3.profissao);

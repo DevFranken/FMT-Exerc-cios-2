@@ -1,0 +1,14 @@
+function verificarMaioridade() {
+    // Solicitar a idade do usuário através do prompt
+    var idade = parseInt(window.prompt("Por favor, digite sua idade:"));
+
+    // Verificar se a idade fornecida é maior ou igual a 18
+    if (idade >= 18) {
+        console.log("Você é maior de idade.");
+    } else {
+        console.log("Você é menor de idade.");
+    }
+}
+
+// Chamando a função para iniciar o processo
+verificarMaioridade();

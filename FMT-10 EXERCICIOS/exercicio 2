@@ -1,0 +1,2 @@
+var numero = window.prompt("Digite um número:");
+console.log("O número digitado é:", numero);

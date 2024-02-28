@@ -1,0 +1,29 @@
+/* Estilos para o perfil do usuário */
+#perfil {
+    display: flex;
+    align-items: center;
+}
+
+.profile-picture {
+    margin-right: 20px;
+}
+
+.profile-picture img {
+    width: 150px; /* Ajuste conforme necessário */
+    border-radius: 50%; /* Para uma foto de perfil redonda */
+}
+
+.profile-info h2 {
+    margin-top: 0;
+}
+
+.profile-info ul {
+    list-style: none;
+    padding: 0;
+}
+
+.profile-info ul li {
+    margin-bottom: 5px;
+}
+
+/* Outros estilos podem ser adicionados conforme necessário */

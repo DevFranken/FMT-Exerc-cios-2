@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Projeto Piloto</title>
+    <style>
+        body {
+            background-color: #f2f2f2;
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+        }
+
+        header {
+            background-color: #333;
+            color: white;
+            text-align: center;
+            padding: 1em;
+            cursor: pointer; 
+        }
+
+        section {
+            margin: 20px;
+        }
+
+        article {
+            border: 1px solid #ccc;
+            padding: 10px;
+            margin-bottom: 20px;
+            cursor: pointer; 
+        }
+
+        footer {
+            background-color: #333;
+            color: white;
+            text-align: center;
+            padding: 1em;
+        }
+    </style>
+</head>
+<body>
+    <header id="cabecalho">
+        <h1>André Franken</h1>
+    </header>
+    <section>
+        <h2>Estudante do Floripamaistec/LAB365/Entra21</h2>
+        <h3>Sobre meus projetos</h3>
+        <article class="projeto" onclick="mostrarAlerta(this, 'Meu primeiro projeto')">
+            <p>No momento você está vendo meu primeiro e único projeto</p>
+            <img src="https://cdn.omaestro.net/portal/Files/d515eea0-61c9-4eeb-adee-49d6ee064207/JavaScript-58acbb8a3df78c345bad32c2.jpg" alt="Imagem do Projeto 1"> 
+        </article>
+        <article class="projeto" onclick="mostrarAlerta(this, 'Projetos Futuros')">
+            <p>Ao longo do curso espero desenvolver muitos mais</p>
+            <img src="https://www.redspark.io/wp-content/uploads/2016/10/Programac%CC%A7a%CC%83o-funcional-com-JavaScript-1-1024x640.png" alt="Imagem do Projeto 2">
+        </article>
+    </section>
+    <footer>
+        <p>CONTATO: Instagram: @Mestre_Frank | <E-mail>Frankencontato@gmail.com</E-mail></p>
+    </footer>
+    <script>
+        function mostrarAlerta(elemento, titulo) {
+            alert("Clicou no projeto: " + titulo);
+        }
+        var cabecalho = document.getElementById('cabecalho');
+        cabecalho.addEventListener('mouseenter', function() {
+            cabecalho.style.backgroundColor = '#555';
+        });
+        cabecalho.addEventListener('mouseleave', function() {
+            cabecalho.style.backgroundColor = '#333';
+        });
+    </script>
+</body>
+</html>

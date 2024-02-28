@@ -1,0 +1,11 @@
+function exibirMensagem() {
+    alert("Bem-vindo! Esta é uma mensagem de boas-vindas.");
+}
+
+exibirMensagem();
+// Selecionando o elemento do nome do usuário pelo id
+var nomeUsuarioElement = document.getElementById("nome-usuario");
+
+// Atualizando o conteúdo dinamicamente
+nomeUsuarioElement.textContent = "Novo Nome de Usuário";
+

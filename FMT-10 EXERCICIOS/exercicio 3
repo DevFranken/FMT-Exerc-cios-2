@@ -1,0 +1,5 @@
+var string1 = "Olá";
+var string2 = "mundo";
+
+var resultado = `${string1} ${string2}`;
+console.log(resultado);

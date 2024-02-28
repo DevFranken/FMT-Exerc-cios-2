@@ -1,0 +1,15 @@
+function exibirMensagem(condicao) {
+    switch(condicao) {
+        case 1:
+            console.log("Condição 1: Esta é a primeira mensagem.");
+            break;
+        case 2:
+            console.log("Condição 2: Esta é a segunda mensagem.");
+            break;
+        case 3:
+            console.log("Condição 3: Esta é a terceira mensagem.");
+            break;
+        default:
+            console.log("Condição não reconhecida: Mensagem padrão.");
+    }
+}
